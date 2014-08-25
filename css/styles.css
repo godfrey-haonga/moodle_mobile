@@ -45,7 +45,7 @@ body {
   font-size: 14px;
   font-size: .875rem;
   line-height: 24px;
-  background: #fa8f1c url(../img/bg-orange.png);
+  background:  url(../img/bg-blue.png);
 }
 /* =1.3 - Links
 --------------------------------------------------------*/
@@ -487,7 +487,7 @@ hr {
   line-height: 44px;
   padding-right: 20px;
   overflow: hidden;
-  background: #fa8f1c;
+  background: url(../img/bg-blue.png);
   border-bottom: 0;
 }
 .header-main .nav-main {
@@ -538,13 +538,13 @@ hr {
 /* - User menu on the left panel
 -------------------------------------------------------------------------- */
 .user-menu {
-  background: #fa8f1c;
+  background:  url(../img/bg-blue.png);
   padding-bottom: 40px;
   height: auto;
 }
 .user-menu header {
   padding: 10px;
-  background: #fa8f1c;
+  background:  url(../img/bg-blue.png);
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   box-shadow: none;
 }
@@ -1107,7 +1107,7 @@ hr {
   letter-spacing: .5px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  background-color: #fa8f1c;
+  background-color: url(../img/bg-blue.png);
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;

@@ -91,10 +91,7 @@
                 }
             }, 5000);
             MM.fs.init();
-			
-			$('#url').val('http://elms.out.ac.tz');    
-			$('#addsitebutton').click();
-        });
+		});
 
         // This function is for handling when the app is opened using a custom URL SCHEME.
         function handleOpenURL(url) {
@@ -323,12 +320,13 @@
 <h1 class="app-ico">
     <img src="img/login-logo.png" alt="Moodle">
 </h1>
+
 <form action="" novalidate>
-    <div id="login-details">
-        <p>
-            <input type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
+    <div id="login-details" >
+		<p>
+            <input disabled="disabled" class="url-loading" type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
         </p>
-        <div id="login-credentials">
+        <div id="login-credentials" style="display: none">
             <p>
                 <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
             </p>
@@ -337,12 +335,12 @@
             </p>
         </div>
         <p>
-            <input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
+            <input style="display: none" type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
             <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
         </p>
     </div>
 </form>
-<div id= "helplogin">
+<div id= "helplogin" style="display: none">
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
     <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
 </div>
