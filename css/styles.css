@@ -1310,7 +1310,11 @@ div.jqi button.jqidefaultbutton {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  min-height: 100%;
+  min-height: 100%;  
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
 
   /* Safari 4-5, Chrome 1-9 */
   background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
