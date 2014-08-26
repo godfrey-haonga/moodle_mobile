@@ -1301,9 +1301,15 @@ div.jqi button.jqidefaultbutton {
 }
 
 .linearGradient{
-	background-image: -moz-linear-gradient(top, #073263 0%, #1E5F95 27%, #3C88BA 54%, #7DBFF3 100%); /* firefox */
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#073263), color-stop(27%,#1E5F95), color-stop(54%,#3C88BA), color-stop(100%,#7DBFF3)); /* webkit */
-    filter:  progid:DXImageTransform.Microsoft.gradient( startColorstr='#073263', endColorstr='#7DBFF3',GradientType=0 ); /* IE6,IE7 */               
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#073263', EndColorStr='#7dbff3')"; /* IE8 */
+	background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(top,  #1e5799 25%, #2989d8 100%, #207cca 100%, #7db9e8 100%, #207cca 100%, #2989d8 101%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(25%,#1e5799), color-stop(100%,#2989d8), color-stop(100%,#207cca), color-stop(100%,#7db9e8), color-stop(100%,#207cca), color-stop(101%,#2989d8)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #1e5799 25%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2989d8 101%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 25%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2989d8 101%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 25%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2989d8 101%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 25%,#2989d8 100%,#207cca 100%,#7db9e8 100%,#207cca 100%,#2989d8 101%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#2989d8',GradientType=0 ); /* IE6-9 */
+
+
     background-attachment: fixed;
 }
