@@ -473,7 +473,7 @@ hr {
 }
 /* - Fixed header on the center and right panel
 -------------------------------------------------------------------------- */
-.header-wrapper {
+.header-wraer {
   box-shadow: 10px 0 20px rgba(0, 0, 0, 0.3);
 }
 .header-fixed {
@@ -1107,7 +1107,7 @@ hr {
   letter-spacing: .5px;
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
   padding: 10px;
-  background-color: url(../img/bg-blue.png);
+  background-color: #1c50fa;
   -webkit-border-radius: 10px 10px 0 0;
   -moz-border-radius: 10px 10px 0 0;
   border-radius: 10px 10px 0 0;
