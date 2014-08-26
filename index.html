@@ -323,10 +323,10 @@
 
 <form action="" novalidate>
     <div id="login-details" >
-		<p>
-            <input disabled="disabled" class="url-loading" type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
-        </p>
-        <div id="login-credentials" style="display: none">
+			<p>
+				<input disabled="disabled" type="url" id="url" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("siteurl") %>">
+			</p>
+        <div id="login-credentials" >
             <p>
                 <input type="text" id="username" autocapitalize="off" autocorrect="off" placeholder="<%= MM.lang.s("username") %>">
             </p>
@@ -335,12 +335,12 @@
             </p>
         </div>
         <p>
-            <input style="display: none" type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
+            <input type="submit" name="add"   id="addsitebutton"   value="<%= MM.lang.s("add") %>">
             <input type="button" name="reset" id="resetsitebutton" value="<%= MM.lang.s("reset") %>">
         </p>
     </div>
 </form>
-<div id= "helplogin" style="display: none">
+<div id= "helplogin" >
     <a href="#helpmelogin"><%= MM.lang.s("icantlogin") %></a>
     <a href="#manage-accounts"><%= MM.lang.s("manageaccounts") %></a>
 </div>
