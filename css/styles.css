@@ -38,6 +38,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   font-size: 100%;
+  background:  #3832B0 url('../img/bg-blue.png'); 
 }
 body {
   color: #666666;
@@ -1298,8 +1299,4 @@ div.jqi button.jqidefaultbutton {
 .tablet .grades .range,
 .tablet .grades .percentage {
   text-align: right;
-}
-
-.blue-bg{
-	background:  url('../img/bg-blue.png'); 
 }
